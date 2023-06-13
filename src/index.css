@@ -7,7 +7,68 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+border:slategrey;
+margin-left: 20px;
+margin-right: 20px;
+padding:5%;
+border-radius: 5px;
+border-style: double;
+
+margin-left: 40px;
+margin-top: 20px;
+margin-right: 400px;
+padding-right: 60px;
+
+}
+h1 {
+  font-size:large;
+}
+.btn-add {
+  display:block;
+  border-top-left-radius: 10px 5px;
+  border-bottom-right-radius: 10% 5%;
+  border-top-right-radius: 5px;
+
+ font-size: larger;
+ outline-style: solid;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: right;
+ 
+}
+.add-task {
+  font-size: medium;
+  align-items: center;
+  align-content: center;font-weight: 400;
+  font-family: sans-serif;
+  line-height: 40px;
+
+}
+.header{
+  font-weight: 500;
+  font-size: larger;
+}
+.title {
+  font-weight: 700;
+  font-size: larger;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  
+}
+.delete {
+  float: right;
+}
+.task {
+  margin-top: 20px;
+}
+.input {
+  margin-right: 0px;
+  margin-left: 0%;
+  width:250px;
 }

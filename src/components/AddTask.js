@@ -17,14 +17,14 @@ const onSubmit =(e) => {
 }
 
   return (
-<form onSubmit={onSubmit}>
-    <div>
+<form onSubmit={onSubmit} className="add-task">
+    <div >
     <label>Task</label>
-    <input type ='text' placeholder='Add Task' value={text} onChange={(e) => setText(e.target.value)}/>
+    <input type ='text' placeholder='Add Task' value={text} onChange={(e) => setText(e.target.value)} className="input"/>
     </div>
     <div>
     <label>Day & Time</label>
-    <input type ='text' placeholder='Add Day & Time' value={day} onChange={(e) => setDay(e.target.value)}/>
+    <input type ='text' placeholder='Add Day & Time' value={day} onChange={(e) => setDay(e.target.value)} className="input"/>
     </div>
     <div>
     <label>Set Reminder</label>

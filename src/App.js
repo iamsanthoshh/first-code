@@ -46,7 +46,7 @@ const toggleReminder =(id) => {
 setTasks(tasks.map((task)=> task.id ===id ? {...task,reminder:!task.reminder} : task ))
 }
  
-    return ( <div><Header title ="Task  Tracker" onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>{ showAddTask && <AddTask onAdd={addTask}/>}
+    return ( <div className="container"><Header title ="Task  Tracker" onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>{ showAddTask && <AddTask onAdd={addTask}/>}
    {tasks.length >0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> :'No Tasks to show'} </div>)
   }
  
