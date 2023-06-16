@@ -5,9 +5,9 @@ import Button from './Button'
  const Header = ({ title,onAdd}) => {
 
   return (
-    <header className="header">
+    <header className='header'>
     <h1 className="title">{title}</h1>
-    <Button color='green' text ='Add' onClick={onAdd}/>
+    <Button   color='green' text ='Add' onClick={onAdd}/>
     </header>
   )
 }
